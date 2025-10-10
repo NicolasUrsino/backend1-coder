@@ -1,0 +1,13 @@
+[
+  {
+    "id": "fe3e691e-f30f-49f7-b7bd-81415aeaa86f",
+    "title": "Jean",
+    "description": "Jean de cuero",
+    "code": "123",
+    "price": 1050,
+    "status": true,
+    "stock": 15,
+    "category": "pantalones",
+    "thumbnails": []
+  }
+]
