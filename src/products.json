@@ -1,13 +1,113 @@
 [
   {
-    "id": "fe3e691e-f30f-49f7-b7bd-81415aeaa86f",
-    "title": "Jean",
-    "description": "Jean de cuero",
-    "code": "123",
-    "price": 1050,
-    "status": true,
-    "stock": 15,
-    "category": "pantalones",
-    "thumbnails": []
+    "id": "1",
+    "title": "Camiseta Nike",
+    "description": "Camiseta deportiva para running",
+    "price": 15999
+  },
+  {
+    "id": "2",
+    "title": "Zapatillas Adidas",
+    "description": "Zapatillas livianas para entrenamiento",
+    "price": 32999
+  },
+  {
+    "id": "8f35c1e8-94dd-4f5f-a542-4b1735c8554b",
+    "title": "asd",
+    "price": "123"
+  },
+  {
+    "id": "55180d40-4bc1-4a02-b383-4c31c2b7cb14",
+    "title": "asdasd",
+    "price": "123123"
+  },
+  {
+    "id": "68dc6858-7102-41c4-93f5-a6260ae94669",
+    "title": "asd",
+    "price": "213"
+  },
+  {
+    "id": "3ed3f93d-8562-4914-8d21-2f041bb1f86f",
+    "title": "asdasd",
+    "price": "123123"
+  },
+  {
+    "id": "00315601-f2ad-497e-a9b1-30650d86a373",
+    "title": "asdasd",
+    "price": "123123"
+  },
+  {
+    "id": "94a6881d-ec7f-4f19-b588-2069ec73dbe0",
+    "title": "aaaaaaaa",
+    "price": "1"
+  },
+  {
+    "id": "50b5e45d-a87d-4fd6-a469-b645e213d54f",
+    "title": "d",
+    "price": "2"
+  },
+  {
+    "id": "2e0e109d-9689-4f59-b456-fd5e98240905",
+    "title": "fgff",
+    "price": "3434"
+  },
+  {
+    "id": "23a6befb-c6c3-430c-a32f-5a88ae871954",
+    "title": "asdasd",
+    "price": "123123"
+  },
+  {
+    "id": "ca0e37c7-9450-4396-9ed6-648ae8f0aa03",
+    "title": "asdasd",
+    "price": "12312"
+  },
+  {
+    "id": "a3531923-0d4f-458c-8141-b318f9f74a29",
+    "title": "dsd",
+    "price": "1"
+  },
+  {
+    "id": "b6e06e8b-8ed5-4afe-ad7d-ad2670f60871",
+    "title": "ddd",
+    "price": 222
+  },
+  {
+    "id": "cfcaf983-df9e-4375-849c-95ac40889693",
+    "title": "ddd",
+    "price": 333
+  },
+  {
+    "id": "b56b7150-3f05-40db-8101-70e511bd63ec",
+    "title": "dsad",
+    "price": "123"
+  },
+  {
+    "id": "2bd81e25-235e-44b9-8985-b310276d3411",
+    "title": "dsad",
+    "price": "444"
+  },
+  {
+    "id": "35ef5760-1d7b-46e5-9ebe-e97e8febabd4",
+    "title": "gfgfg",
+    "price": "44"
+  },
+  {
+    "id": "c88e70f3-7f27-4edc-8696-1e75c7ecb5d7",
+    "title": "aaaa",
+    "price": "66"
+  },
+  {
+    "id": "06a0f82a-324e-42d7-819a-38534cc9a156",
+    "title": "ds",
+    "price": "44"
+  },
+  {
+    "id": "9f6f3ea9-04f1-4565-a7b5-58e56c5ece5a",
+    "title": "rrrr",
+    "description": "",
+    "price": 333,
+    "thumbnail": "",
+    "code": "",
+    "stock": 0
   }
 ]
