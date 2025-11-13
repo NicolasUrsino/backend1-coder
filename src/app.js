@@ -30,14 +30,14 @@ app.use("/", viewsRouter);
 
 // Server + Socket.io
 const server = app.listen(PORT, () => {
-  console.log(`✅ Server funcionando en http://localhost:${PORT}`);
+  console.log(`Server funcionando en http://localhost:${PORT}`);
 });
 
 const io = new Server(server);
 
 
 io.on("connection", (socket) => {
-  console.log("🟢 Cliente conectado");
+  console.log("Cliente conectado");
 
   socket.on("newProduct", (data) => {
     io.emit("productAdded", data);
