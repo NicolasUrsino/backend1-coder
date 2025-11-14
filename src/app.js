@@ -6,6 +6,10 @@ import { fileURLToPath } from "url";
 
 import productsRouter from "./routes/products.router.js";
 import viewsRouter from "./routes/views.js";
+import connectMongoDB from "./config/db.js";
+
+
+connectMongoDB()
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
