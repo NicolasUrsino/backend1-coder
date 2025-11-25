@@ -3,11 +3,10 @@ import { engine } from "express-handlebars";
 import { Server } from "socket.io";
 import path from "path";
 import { fileURLToPath } from "url";
-
 import productsRouter from "./routes/products.router.js";
 import viewsRouter from "./routes/views.js";
 import connectMongoDB from "./config/db.js";
-
+import cartsRouter from "./routes/carts.router.js";
 
 connectMongoDB()
 
@@ -20,7 +19,6 @@ const PORT = 8080;
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 app.use(express.static(path.join(__dirname, "../public")));
 
 // Handlebars
@@ -31,6 +29,7 @@ app.set("views", path.join(__dirname, "views"));
 // Rutas
 app.use("/api/products", productsRouter);
 app.use("/", viewsRouter);
+app.use("/api/carts", cartsRouter);
 
 // Server + Socket.io
 const server = app.listen(PORT, () => {
